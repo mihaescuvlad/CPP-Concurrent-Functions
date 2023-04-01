@@ -6,11 +6,11 @@ This project contains a collection of C++ functions that demonstrate concurrent 
 
 The following functions are included in this project:
 
-**`parallel_accumulate`**
+`parallel_accumulate`
 
 This function performs a parallel addition of the elements in a provided container using multiple threads. Each thread is responsible for adding a specific subset of elements from the provided container.
 
-**`threadsafe_stack`**
+`threadsafe_stack`
 
 This container works similarly to a STL `std::stack` while being thread safe.
 
